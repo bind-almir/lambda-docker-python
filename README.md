@@ -5,5 +5,5 @@
 
 #Setup GitHub actions
 - Clone the repository
-- Add `AWS_ACCESS_KEY_ID` and `AWS_ACCESS_KEY_ID` to GitHub secrets
+- Add `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` to GitHub secrets
 - Push to `master` will deploy to AWS (check `.github/workflows/deploy.yml` for details)
