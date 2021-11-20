@@ -38,7 +38,6 @@ jobs:
           ECR_REPOSITORY: test/docker-lambda
           IMAGE_TAG: ${{ github.sha }}
         run: |-
-          dotnet publish --configuration Release --output 'artifacts'
           docker build -f Dockerfile . -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
