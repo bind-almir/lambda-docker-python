@@ -5,5 +5,7 @@
 
 #Setup GitHub actions
 - Clone the repository
+- Push to your own GitHub account
 - Add `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` to GitHub secrets
+- Create `test/docker-lambda` repository on AWS ECR on your account
 - Push to `master` will deploy to AWS (check `.github/workflows/deploy.yml` for details)
