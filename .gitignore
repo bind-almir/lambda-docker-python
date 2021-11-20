@@ -1,0 +1,15 @@
+bin
+obj
+*.suo
+*.user
+.vs
+*.nupkg
+/NuGet
+/ReportHtml
+*.ruleset
+/_ReSharper.Caches
+/0
+.serverless
+.vscode
+__pycache__
+node_modules/
